@@ -9,7 +9,10 @@
     <language id="bd349684-a2c7-4991-b403-29030d4f43c5" name="markdown">
       <concept id="2520318693434023646" name="markdown.structure.LineBrake" flags="ng" index="2S4aqx" />
       <concept id="122376491561371984" name="markdown.structure.HorizontalRule" flags="ng" index="1dVgQl" />
-      <concept id="122376491559984132" name="markdown.structure.Word" flags="ng" index="1dY5z1" />
+      <concept id="122376491559984132" name="markdown.structure.Word" flags="ng" index="1dY5z1">
+        <property id="933446983229202708" name="bold" index="3wZig1" />
+        <property id="933446983229202710" name="italic" index="3wZig3" />
+      </concept>
       <concept id="122376491559984135" name="markdown.structure.Line" flags="ng" index="1dY5z2">
         <property id="122376491561146038" name="heading" index="1dVD9N" />
         <child id="122376491559984136" name="lineElements" index="1dY5zd" />
@@ -234,6 +237,63 @@
         <property role="TrG5h" value="line" />
       </node>
       <node concept="2S4aqx" id="2bTY7YqUF20" role="1dY5zd" />
+    </node>
+    <node concept="1dY5z2" id="NOhhnG2Xwd" role="1dY5zt">
+      <property role="1dVD9N" value="6MLclcn2d1/Paragraph" />
+      <node concept="1dY5z1" id="NOhhnG2XAZ" role="1dY5zd">
+        <property role="TrG5h" value="Use" />
+      </node>
+      <node concept="1dY5z1" id="NOhhnG2XB0" role="1dY5zd">
+        <property role="TrG5h" value="CTL+i" />
+      </node>
+      <node concept="1dY5z1" id="NOhhnG2XB1" role="1dY5zd">
+        <property role="TrG5h" value="for" />
+      </node>
+      <node concept="1dY5z1" id="NOhhnG2XB2" role="1dY5zd">
+        <property role="TrG5h" value="changing" />
+      </node>
+      <node concept="1dY5z1" id="NOhhnG2XB3" role="1dY5zd">
+        <property role="TrG5h" value="a" />
+      </node>
+      <node concept="1dY5z1" id="NOhhnG2XB4" role="1dY5zd">
+        <property role="TrG5h" value="word" />
+      </node>
+      <node concept="1dY5z1" id="NOhhnG2XB5" role="1dY5zd">
+        <property role="TrG5h" value="to" />
+      </node>
+      <node concept="1dY5z1" id="NOhhnG2XB6" role="1dY5zd">
+        <property role="TrG5h" value="italic." />
+        <property role="3wZig3" value="true" />
+      </node>
+      <node concept="2S4aqx" id="NOhhnG3ndJ" role="1dY5zd" />
+    </node>
+    <node concept="1dY5z2" id="NOhhnG2X$4" role="1dY5zt">
+      <property role="1dVD9N" value="6MLclcn2d1/Paragraph" />
+      <node concept="1dY5z1" id="NOhhnG2Xwc" role="1dY5zd">
+        <property role="TrG5h" value="Use" />
+      </node>
+      <node concept="1dY5z1" id="NOhhnG2XyX" role="1dY5zd">
+        <property role="TrG5h" value="CTL+b" />
+      </node>
+      <node concept="1dY5z1" id="NOhhnG2Xz0" role="1dY5zd">
+        <property role="TrG5h" value="for" />
+      </node>
+      <node concept="1dY5z1" id="NOhhnG2Xz4" role="1dY5zd">
+        <property role="TrG5h" value="changing" />
+      </node>
+      <node concept="1dY5z1" id="NOhhnG2Xz9" role="1dY5zd">
+        <property role="TrG5h" value="a" />
+      </node>
+      <node concept="1dY5z1" id="NOhhnG2Xzf" role="1dY5zd">
+        <property role="TrG5h" value="word" />
+      </node>
+      <node concept="1dY5z1" id="NOhhnG2Xzm" role="1dY5zd">
+        <property role="TrG5h" value="to" />
+      </node>
+      <node concept="1dY5z1" id="NOhhnG2Xzu" role="1dY5zd">
+        <property role="TrG5h" value="bold." />
+        <property role="3wZig1" value="true" />
+      </node>
     </node>
     <node concept="1dY5z2" id="6MLclcn_yI" role="1dY5zt">
       <property role="1dVD9N" value="6MLclcn2ck/HeadingLevel3" />
