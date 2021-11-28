@@ -105,7 +105,7 @@
     <property role="EcuMT" value="122376491560241477" />
     <property role="TrG5h" value="LineElement" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" node="6MLclcpJWI" resolve="AbstractLine" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="25R3W" id="6MLclcn2ce">
     <property role="3F6X1D" value="122376491561132814" />
@@ -156,6 +156,11 @@
     <property role="TrG5h" value="AbstractLine" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="2bTY7YqUlVu">
+    <property role="EcuMT" value="2520318693434023646" />
+    <property role="TrG5h" value="LineBrake" />
+    <ref role="1TJDcQ" node="6MLclcjC_5" resolve="LineElement" />
   </node>
 </model>
 

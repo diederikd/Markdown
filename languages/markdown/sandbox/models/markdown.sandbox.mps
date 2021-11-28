@@ -7,6 +7,7 @@
   <imports />
   <registry>
     <language id="bd349684-a2c7-4991-b403-29030d4f43c5" name="markdown">
+      <concept id="2520318693434023646" name="markdown.structure.LineBrake" flags="ng" index="2S4aqx" />
       <concept id="122376491561371984" name="markdown.structure.HorizontalRule" flags="ng" index="1dVgQl" />
       <concept id="122376491559984132" name="markdown.structure.Word" flags="ng" index="1dY5z1" />
       <concept id="122376491559984135" name="markdown.structure.Line" flags="ng" index="1dY5z2">
@@ -100,6 +101,7 @@
       <node concept="1dY5z1" id="6MLclcpl7$" role="1dY5zd">
         <property role="TrG5h" value="MPS." />
       </node>
+      <node concept="2S4aqx" id="1_$_ejgDIj3" role="1dY5zd" />
     </node>
     <node concept="1dY5z2" id="6MLclcnuv7" role="1dY5zt">
       <property role="1dVD9N" value="6MLclcn2d1/Paragraph" />
@@ -148,6 +150,7 @@
       <node concept="1dY5z1" id="6MLclcpla3" role="1dY5zd">
         <property role="TrG5h" value="CONTROL-ENTER" />
       </node>
+      <node concept="2S4aqx" id="2bTY7YqUF14" role="1dY5zd" />
     </node>
     <node concept="1dY5z2" id="6MLclcnuvD" role="1dY5zt">
       <property role="1dVD9N" value="6MLclcn2cf/HeadingLevel2" />
@@ -211,6 +214,7 @@
       <node concept="1dY5z1" id="6MLclcplgN" role="1dY5zd">
         <property role="TrG5h" value="words." />
       </node>
+      <node concept="2S4aqx" id="2bTY7YqUF1B" role="1dY5zd" />
     </node>
     <node concept="1dY5z2" id="6MLclcnWsG" role="1dY5zt">
       <property role="1dVD9N" value="6MLclcn2d1/Paragraph" />
@@ -229,6 +233,7 @@
       <node concept="1dY5z1" id="6MLclcnWuH" role="1dY5zd">
         <property role="TrG5h" value="line" />
       </node>
+      <node concept="2S4aqx" id="2bTY7YqUF20" role="1dY5zd" />
     </node>
     <node concept="1dY5z2" id="6MLclcn_yI" role="1dY5zt">
       <property role="1dVD9N" value="6MLclcn2ck/HeadingLevel3" />
