@@ -1,3 +1,8 @@
+```plantuml
+@startuml
+class Example
+```
+
 # Markdown language for Jetbrains MPS  
 
 This repository contains a markdown language for MPS the language has an editor and

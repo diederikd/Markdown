@@ -86,13 +86,18 @@
       <concept id="1221057094638" name="jetbrains.mps.lang.editor.structure.QueryFunction_Integer" flags="in" index="1cFabM" />
       <concept id="7342352913006985500" name="jetbrains.mps.lang.editor.structure.TransformationLocation_Completion" flags="ng" index="3eGOoe" />
       <concept id="5692353713941573329" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_ActionLabelText" flags="ig" index="1hCUdq" />
+      <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
+        <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
       <concept id="7228435049763093185" name="jetbrains.mps.lang.editor.structure.FontFamilyContainer" flags="ng" index="1rj3mw">
         <property id="7228435049763093186" name="family" index="1rj3mz" />
       </concept>
+      <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
@@ -1483,12 +1488,52 @@
           </node>
         </node>
       </node>
+      <node concept="IWgqT" id="rP9fzsCOik" role="1Qtc8A">
+        <node concept="1hCUdq" id="rP9fzsCOil" role="1hCUd6">
+          <node concept="3clFbS" id="rP9fzsCOim" role="2VODD2">
+            <node concept="3clFbF" id="rP9fzsCOin" role="3cqZAp">
+              <node concept="Xl_RD" id="rP9fzsCOio" role="3clFbG">
+                <property role="Xl_RC" value="Line Brake" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="IWg2L" id="rP9fzsCOip" role="IWgqQ">
+          <node concept="3clFbS" id="rP9fzsCOiq" role="2VODD2">
+            <node concept="3cpWs8" id="rP9fzsCOir" role="3cqZAp">
+              <node concept="3cpWsn" id="rP9fzsCOis" role="3cpWs9">
+                <property role="TrG5h" value="lineBrake" />
+                <node concept="3Tqbb2" id="rP9fzsCOit" role="1tU5fm">
+                  <ref role="ehGHo" to="7rn6:2bTY7YqUlVu" resolve="LineBrake" />
+                </node>
+                <node concept="2ShNRf" id="rP9fzsCOiu" role="33vP2m">
+                  <node concept="3zrR0B" id="rP9fzsCOiv" role="2ShVmc">
+                    <node concept="3Tqbb2" id="rP9fzsCOiw" role="3zrR0E">
+                      <ref role="ehGHo" to="7rn6:2bTY7YqUlVu" resolve="LineBrake" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="rP9fzsCOix" role="3cqZAp">
+              <node concept="2OqwBi" id="rP9fzsCOiy" role="3clFbG">
+                <node concept="7Obwk" id="rP9fzsCOiz" role="2Oq$k0" />
+                <node concept="1P9Npp" id="rP9fzsCOi$" role="2OqNvi">
+                  <node concept="37vLTw" id="rP9fzsCOi_" role="1P9ThW">
+                    <ref role="3cqZAo" node="rP9fzsCOis" resolve="lineBrake" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="IWgqT" id="2bTY7YqUud8" role="1Qtc8A">
         <node concept="1hCUdq" id="2bTY7YqUud9" role="1hCUd6">
           <node concept="3clFbS" id="2bTY7YqUuda" role="2VODD2">
             <node concept="3clFbF" id="2bTY7YqUudb" role="3cqZAp">
               <node concept="Xl_RD" id="2bTY7YqUudc" role="3clFbG">
-                <property role="Xl_RC" value="Line Brake" />
+                <property role="Xl_RC" value="Reference" />
               </node>
             </node>
           </node>
@@ -1497,14 +1542,14 @@
           <node concept="3clFbS" id="2bTY7YqUude" role="2VODD2">
             <node concept="3cpWs8" id="2bTY7YqUudf" role="3cqZAp">
               <node concept="3cpWsn" id="2bTY7YqUudg" role="3cpWs9">
-                <property role="TrG5h" value="lineBrake" />
+                <property role="TrG5h" value="wordReference" />
                 <node concept="3Tqbb2" id="2bTY7YqUudh" role="1tU5fm">
-                  <ref role="ehGHo" to="7rn6:2bTY7YqUlVu" resolve="LineBrake" />
+                  <ref role="ehGHo" to="7rn6:rP9fzsC_$U" resolve="WordReference" />
                 </node>
                 <node concept="2ShNRf" id="2bTY7YqUudi" role="33vP2m">
                   <node concept="3zrR0B" id="2bTY7YqUudj" role="2ShVmc">
                     <node concept="3Tqbb2" id="2bTY7YqUudk" role="3zrR0E">
-                      <ref role="ehGHo" to="7rn6:2bTY7YqUlVu" resolve="LineBrake" />
+                      <ref role="ehGHo" to="7rn6:rP9fzsC_$U" resolve="WordReference" />
                     </node>
                   </node>
                 </node>
@@ -1747,6 +1792,19 @@
     </node>
     <node concept="2aJ2om" id="RmDiRDJBMx" role="CpUAK">
       <ref role="2$4xQ3" node="RmDiRDJoh8" resolve="generation" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="rP9fzsC_$W">
+    <ref role="1XX52x" to="7rn6:rP9fzsC_$U" resolve="WordReference" />
+    <node concept="1iCGBv" id="rP9fzsC_$X" role="2wV5jI">
+      <ref role="1NtTu8" to="7rn6:rP9fzsC_$V" resolve="word" />
+      <ref role="34QXea" node="6MLclcj9cs" resolve="Word_Keymap" />
+      <node concept="1sVBvm" id="rP9fzsC_$Y" role="1sWHZn">
+        <node concept="3F0A7n" id="rP9fzsC_$Z" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

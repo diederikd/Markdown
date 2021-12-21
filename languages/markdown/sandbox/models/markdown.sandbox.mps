@@ -21,6 +21,9 @@
         <child id="122376491559984152" name="lines" index="1dY5zt" />
       </concept>
       <concept id="122376491560241476" name="markdown.structure.BlankLine" flags="ng" index="1dZ4Q1" />
+      <concept id="501347584793794874" name="markdown.structure.WordReference" flags="ng" index="3qlRR2">
+        <reference id="501347584793794875" name="word" index="3qlRR3" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -574,6 +577,76 @@
       </node>
       <node concept="1dY5z1" id="6MLclcs0ED" role="1dY5zd">
         <property role="TrG5h" value="menu." />
+      </node>
+    </node>
+    <node concept="1dZ4Q1" id="rP9fzsCNvl" role="1dY5zt" />
+    <node concept="1dY5z2" id="rP9fzsCNyi" role="1dY5zt">
+      <property role="1dVD9N" value="6MLclcn2cg/HeadingLevel1" />
+      <node concept="1dY5z1" id="rP9fzsCNyh" role="1dY5zd">
+        <property role="TrG5h" value="What" />
+      </node>
+      <node concept="1dY5z1" id="rP9fzsCN_g" role="1dY5zd">
+        <property role="TrG5h" value="about" />
+      </node>
+      <node concept="1dY5z1" id="rP9fzsCN_j" role="1dY5zd">
+        <property role="TrG5h" value="references" />
+      </node>
+    </node>
+    <node concept="1dY5z2" id="rP9fzsCN_o" role="1dY5zt">
+      <property role="1dVD9N" value="6MLclcn2d1/Paragraph" />
+      <node concept="1dY5z1" id="rP9fzsCN_n" role="1dY5zd">
+        <property role="TrG5h" value="With" />
+      </node>
+      <node concept="1dY5z1" id="rP9fzsCNCq" role="1dY5zd">
+        <property role="TrG5h" value="CTRL+ENTER" />
+      </node>
+      <node concept="1dY5z1" id="rP9fzsCNI_" role="1dY5zd">
+        <property role="TrG5h" value="you" />
+      </node>
+      <node concept="1dY5z1" id="rP9fzsCNID" role="1dY5zd">
+        <property role="TrG5h" value="can" />
+      </node>
+      <node concept="1dY5z1" id="rP9fzsCNII" role="1dY5zd">
+        <property role="TrG5h" value="select" />
+      </node>
+      <node concept="1dY5z1" id="rP9fzsCNIO" role="1dY5zd">
+        <property role="TrG5h" value="a" />
+      </node>
+      <node concept="1dY5z1" id="rP9fzsCNIV" role="1dY5zd">
+        <property role="TrG5h" value="word" />
+      </node>
+      <node concept="1dY5z1" id="rP9fzsCNJj" role="1dY5zd">
+        <property role="TrG5h" value="to" />
+      </node>
+      <node concept="1dY5z1" id="rP9fzsCNJs" role="1dY5zd">
+        <property role="TrG5h" value="reference" />
+      </node>
+      <node concept="1dY5z1" id="rP9fzsCNJA" role="1dY5zd">
+        <property role="TrG5h" value="to." />
+      </node>
+    </node>
+    <node concept="1dY5z2" id="rP9fzsCNZO" role="1dY5zt">
+      <property role="1dVD9N" value="6MLclcn2d1/Paragraph" />
+      <node concept="1dY5z1" id="rP9fzsCNZN" role="1dY5zd">
+        <property role="TrG5h" value="The" />
+      </node>
+      <node concept="1dY5z1" id="rP9fzsCO6i" role="1dY5zd">
+        <property role="TrG5h" value="next" />
+      </node>
+      <node concept="1dY5z1" id="rP9fzsCO6l" role="1dY5zd">
+        <property role="TrG5h" value="word" />
+      </node>
+      <node concept="1dY5z1" id="rP9fzsCO6p" role="1dY5zd">
+        <property role="TrG5h" value="is" />
+      </node>
+      <node concept="1dY5z1" id="rP9fzsCO6u" role="1dY5zd">
+        <property role="TrG5h" value="a" />
+      </node>
+      <node concept="1dY5z1" id="rP9fzsCO6$" role="1dY5zd">
+        <property role="TrG5h" value="reference" />
+      </node>
+      <node concept="3qlRR2" id="rP9fzsDCFz" role="1dY5zd">
+        <ref role="3qlRR3" node="6MLclcpla3" resolve="CONTROL-ENTER" />
       </node>
     </node>
   </node>
