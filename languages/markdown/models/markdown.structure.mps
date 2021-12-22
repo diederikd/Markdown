@@ -181,6 +181,16 @@
     <property role="EcuMT" value="501347584793794874" />
     <property role="TrG5h" value="WordReference" />
     <ref role="1TJDcQ" node="6MLclcjC_5" resolve="LineElement" />
+    <node concept="1TJgyi" id="687fYe0QUMh" role="1TKVEl">
+      <property role="IQ2nx" value="7063684786905918609" />
+      <property role="TrG5h" value="bold" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="687fYe0QUMi" role="1TKVEl">
+      <property role="IQ2nx" value="7063684786905918610" />
+      <property role="TrG5h" value="italic" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="rP9fzsC_$V" role="1TKVEi">
       <property role="20lbJX" value="fLJekj4/1" />
       <property role="IQ2ns" value="501347584793794875" />

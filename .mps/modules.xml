@@ -2,9 +2,9 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/solutions/MarkdownLanguage.build/MarkdownLanguage.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/markdown/markdown.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/markdown/sandbox/markdown.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/MarkdownLanguage.build/MarkdownLanguage.build.msd" folder="" />
     </projectModules>
   </component>
 </project>
