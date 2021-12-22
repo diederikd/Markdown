@@ -3,6 +3,9 @@
 **/source_gen.caches
 *.html
 *.java
+lib/*
+build/*
+.gradle/*
 /.mps/workspace.xml
 
 \.gitattributes
